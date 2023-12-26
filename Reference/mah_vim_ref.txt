@@ -1,7 +1,15 @@
-Linux is already installed but download the latest version:
-$ git clone https://github.com/vim/vim.git
-$ cd vim/src
-$ make
-$ sudo make install
+*NOTE: I am using Debian 12 when making this reference* 
+
+-Installation:
+You want to install Vim GUI version eg. Vim GTK then check if it is installed properly
+>which vim
+
+-Create vim config file (if not already created)
+cd $HOME
+ls -a (check if already created)
+touch .vimrc
+
+
+
 
 
