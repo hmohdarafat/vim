@@ -1,0 +1,29 @@
+Mohd Arafat Hossain's Vim Reference
+
+Start VIM:
+Open terminal then
+-vim LOCATION_OF_FILE_TO_EDIT
+
+When you start vim it will be in NORMAL mode.
+To switch to INSERT mode:
+[i]
+To switch back to NORMAL mode:
+[ESC]
+[CTRL+C]
+[CTRL+[]
+
+Saving and closing files:
+:w (write)
+:wq (write and quit)
+:q (quit)
+
+Note:
+If ever when saving or quiting you get a message saying there is a swap, it means there were previous unsaved changes and saving now would override that old version. You can recover the old changes from the swap if you want [R] or delete the swap [D]. In the location of this file you should see a FILENAME.swp file you can manually delete this file too and it will be the same.
+
+Movement:
+[h] - Left
+[j] - Down
+[k] - Up
+[l] - Right
+
+

@@ -7,7 +7,7 @@ You want to install Vim GUI version eg. Vim GTK then check if it is installed pr
 -Create vim config file (if not already created)
 cd $HOME
 ls -a (check if already created)
-touch .vimrc
+touch .vimrc (if not already created)
 
 
 
